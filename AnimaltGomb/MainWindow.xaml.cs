@@ -21,6 +21,7 @@ namespace AnimaltGomb
     /// </summary>
     public partial class MainWindow : Window
     {
+        int angel = 15;
         public MainWindow()
         {
             InitializeComponent();
@@ -28,8 +29,9 @@ namespace AnimaltGomb
 
         private void mainBtn_Click(object sender, RoutedEventArgs e)
         {
-            int angel = 15;
+           
             mainBtn.LayoutTransform= new RotateTransform(angel);
+            angel += 15;
         }
     }
 }
