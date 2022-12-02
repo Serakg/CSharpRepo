@@ -22,7 +22,9 @@ namespace GombVadaszat
             }
             catch (ArgumentOutOfRangeException)
             {
+                mainTimer.Stop();
                 MessageBox.Show("Nyertél!");
+                Application.Exit();
             }
         }
 
