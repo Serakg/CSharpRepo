@@ -26,7 +26,7 @@
         ///  Required method for Designer support - do not modify
         ///  the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent()
+        public void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
             this.mainBtn = new System.Windows.Forms.Button();
@@ -53,6 +53,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(984, 461);
             this.Controls.Add(this.mainBtn);
             this.Name = "Form1";
@@ -63,7 +64,7 @@
 
         #endregion
 
-        private Button mainBtn;
+        public Button mainBtn;
         private System.Windows.Forms.Timer mainTimer;
     }
 }
