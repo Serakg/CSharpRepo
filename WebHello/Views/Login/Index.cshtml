@@ -1,0 +1,10 @@
+﻿@model Login
+
+@using (Html.BeginForm("Sikeres", "Login", FormMethod.Post))
+{
+    @Html.TextBoxFor(m=>m.Nev);
+    <br/>
+    @Html.TextBoxFor(m=>m.LatogatasIdeje)
+    <br />
+    <input type="submit" value="Mehet"/>
+}

@@ -1,0 +1,16 @@
+﻿@model Login
+
+@if (Model.LatogatasIdeje.Hour < 10)
+{
+    <p>Jó reggelt @Model.Nev!</p>
+}
+else if (Model.LatogatasIdeje.Hour < 17)
+{
+    <p>Jó napot @Model.Nev!</p>
+}
+else
+{
+    <p>Jó estét @Model.Nev!</p>
+}
+<br/>
+Látogatási idő: @Model.LatogatasIdeje
