@@ -17,7 +17,7 @@ namespace GombVadaszat
             mainBtn.Left = random.Next(0, 1000);
             mainBtn.Top = random.Next(0, 500);
             mainTimer.Interval -= 1000;
-            if (mainTimer.Interval <= 0) 
+            if (mainTimer.Interval <= 1000) 
             {
                 mainTimer.Stop();
                 MessageBox.Show("Nyertél!");
