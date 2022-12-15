@@ -1,0 +1,19 @@
+﻿<Window x:Name="munkatarsWindow" x:Class="MindigFenyesUIModul.MunkatarsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MindigFenyesUIModul"
+        mc:Ignorable="d"
+        Title="Mindig Fényes Kft" Height="475" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="munkaWindowLabel" Content="Egy munkatárs által elvégzett munkák listája" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="512" Height="33" FontFamily="Copperplate Gothic Light" FontSize="20" FontStyle="Oblique" FontStretch="Expanded"/>
+        <Label Content="Munkatársak:" HorizontalAlignment="Left" Margin="37,73,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="munkakListbox" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="400,82,144,33"/>
+        <Button x:Name="munkasWindowBackToMainBtn" Content="Vissza a Főmenübe" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="116" Height="25" Click="munkasWindowBackToMainBtn_Click"/>
+        <Button x:Name="munkasLekerdezesBtn" Content="Lekérdezés" HorizontalAlignment="Left" Margin="261,104,0,0" VerticalAlignment="Top" Height="22" Width="82" Click="munkasLekerdezesBtn_Click"/>
+        <Button x:Name="munkasExportBtn" Content="Exportálás" HorizontalAlignment="Left" Margin="17,393,0,0" VerticalAlignment="Top" Height="22" Width="82" Click="munkasExportBtn_Click"/>
+        <ComboBox x:Name="munkasComboBox" HorizontalAlignment="Left" Margin="37,104,0,0" VerticalAlignment="Top" Width="177"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,34 @@
+[
+  {
+    "Cim": "3333 Terpes, Bogár út 55.",
+    "Leiras": "Ki kellett cserélni a lámpában az izzót!",
+    "Tipus": "Izzócsere",
+    "Szerelo": "Kovács Péter",
+    "BejDatum": "2020-10-10T00:00:00",
+    "BefDatum": "2020-10-25T00:00:00"
+  },
+  {
+    "Cim": "1114 Budapest, Károly utca 8.",
+    "Leiras": "Új izzót kellett rakni a lámpába.",
+    "Tipus": "Izzócsere",
+    "Szerelo": "Kovács Péter",
+    "BejDatum": "2021-06-23T00:00:00",
+    "BefDatum": "2021-06-30T00:00:00"
+  },
+  {
+    "Cim": "8000 Székesfehérvár, Nagyszombati út 47.",
+    "Leiras": "Ki kellett cserélni a régi izzót LED-re!",
+    "Tipus": "Izzócsere",
+    "Szerelo": "Kovács Péter",
+    "BejDatum": "2021-05-27T00:00:00",
+    "BefDatum": "2021-06-11T00:00:00"
+  },
+  {
+    "Cim": "8600 Siófok, Petőfi sétány 10.",
+    "Leiras": "Ki kellett cserélni az izzót!",
+    "Tipus": "Izzócsere",
+    "Szerelo": "Kovács Péter",
+    "BejDatum": "2020-05-03T00:00:00",
+    "BefDatum": "2022-12-15T00:00:00"
+  }
+]

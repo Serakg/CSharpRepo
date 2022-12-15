@@ -1,0 +1,18 @@
+[
+  {
+    "Cim": "8132 Lepsény, Petőfi utca 20.",
+    "Leiras": "Meg kellett javítani a rossz vezetéket!",
+    "Tipus": "Vezeték javítás",
+    "Szerelo": "Nagy Tamás",
+    "BejDatum": "2022-02-17T00:00:00",
+    "BefDatum": "2022-12-15T00:00:00"
+  },
+  {
+    "Cim": "8600 Siófok, Petőfi sétány 10.",
+    "Leiras": "Ki kellett cserélni az izzót!",
+    "Tipus": "Izzócsere",
+    "Szerelo": "Kovács Péter",
+    "BejDatum": "2020-05-03T00:00:00",
+    "BefDatum": "2022-12-15T00:00:00"
+  }
+]

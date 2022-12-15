@@ -1,0 +1,26 @@
+﻿@model HibaBejelentes
+
+Üdvözöllek a Mindig Fényes Kft hibabejelentő oldalán!
+<br />
+Bejelentéshez add meg kérlek a meghibásodás címét, és nyomd meg a "Beküldés" gombot!
+<br />
+<br />
+A meghibásodás címének tartalmaznia kell a következőket:
+<ul>
+    <li>Irányítószám</li>
+    <li>Helység</li>
+    <li>Közterület neve</li>
+    <li>Közterület jellege</li>
+</ul>
+
+<br />
+
+Meghibásodás címe:
+@using (Html.BeginForm("SikeresBejelentes", "HibaBejelentes", FormMethod.Post))
+{
+
+    @Html.TextBoxFor(m=>m.Cim, new {id ="cimed", style="width:500px;", @required = "required", @oninvalid = "this.setCustomValidity('Kérem adja meg a címet!')", @oninput="setCustomValidity('')"});
+    <br />
+    <br />
+    <input type="submit" value="Beküldés" />
+}
